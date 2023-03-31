@@ -42,7 +42,6 @@ public class App
                 String responseBody = response.body().string();
 
                 if (!response.isSuccessful()) {
-                    System.out.println("Error: " + response.code() + " - " + response.message());
                     continue;
                 }
 
